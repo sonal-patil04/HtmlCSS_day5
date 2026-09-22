@@ -1,0 +1,19 @@
+.container {
+    height: 100px;
+    display: flex;
+}
+.container div:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:pink;
+    width: 100px;
+}
+.container div:first-of-type p {
+    background-color: black;
+    color: white;
+}
+.container div:last-of-type {
+    background-color: lightblue;
+    width: 200px;
+}
