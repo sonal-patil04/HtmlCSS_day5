@@ -1,0 +1,47 @@
+* {
+    font-family: arial;
+}
+.container {
+    width: 500px;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    display: inline;
+    vertical-align: top;
+    overflow: hidden;
+}
+.card {
+    display: inline-block;
+    width: 400px;
+}
+.card > p {
+    display: inline;
+}
+.author-title {
+    font-weight: bold;
+}
+.muted {
+    color: rgb(114, 137, 152);
+}
+.card > div:first-of-type {
+    margin-top: -12px;
+}
+
+.video {
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+    gap: 12px;
+}
+.video > div:first-of-type {
+    width: 100px;
+    background-color: rgb(224, 224, 224);
+}
+.video-info {
+    flex-grow: 1;
+}
